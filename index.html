@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="js-focus-visible" data-js-focus-visible="">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,40 @@
     <link href="./assets/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <header class="page-header"><div class="header content"><div class="header-desktop-container width-container"><div data-bind="scope: 'header-location'" class="header-location radius">
+        <!-- ko ifnot: preferredStore().StoreNumber -->
+        <div data-bind="scope: 'header-location'" class="header-location radius">
+        <div class="header-location-inner">
+            <div class="loader" style="display: none;"></div>
+            <a href="https://www.rexall.ca/storelocator/" class="location-block-button" style="display: block;"><!-- ko i18n: 'Set your preferred Rexall Location' --><span>Set your preferred Rexall Location</span><!-- /ko --></a>
+        </div>
+        <!-- /ko -->
+        <!-- ko if: preferredStore().StoreNumber --><!-- /ko -->
+    </div>
+   <strong class="logo">
+    <img src="https://www.rexall.ca/media/logo/stores/1/rexall-trileaf-logo_3x.png" alt="Rexall" width="226">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
     </script>
         <script src="js/index.js?ver=1"></script>
+    </strong>
+    <div class="right"><form class="search" action="https://www.rexall.ca/search/" method="get">
+    <div class="container">
+        <label for="header-search-input" class="screenreader-only">
+            Search for health information        </label>
+        <input type="text" name="q" class="js-focus-target" id="header-search-input" placeholder="Search for health information">
+    </div>
+    <button type="submit" class="btnheader-btn">
+        <span aria-hidden="true">Go</span>
+        <span class="screenreader-only"></span>
+    </button>
+</form>
+    <ul class="button-container">
+        <li><a class="btn store-locator" href=""><span>Find My Meds</span></a></li>
+        <li><a class="btn store-locator" href="https://www.rexall.ca/storelocator/"><span>Store Locator</span></a></li>
+        <li><a class="btn flyer" href="https://www.rexall.ca/eflyer/"><span>Weekly Flyer</span></a></li>
+        <li><a class="btn subscribe" href="https://www.rexall.ca/subscribe/"><span>Subscribe</span></a></li>
+        <li><a class="btn bewell-button" href="https://app.letsbewell.ca/sign-in" target="_blank"><span>Log in to Be Well™</span><span class="screenreader-only"> </span></a></li>
+    </ul>
 </body>
 </html>
