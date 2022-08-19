@@ -25,6 +25,34 @@ header {
     content: '';
     display: table;
 }
+.header-location.radius{
+    border-radius: 0 0 12px 12px;
+    border-radius: 0;
+}
+.header-location {
+    position: absolute;
+    width: 250px;
+    right: 0;
+    position: relative;
+    background-color: #fff;
+    padding: 0;
+    z-index: 400;
+    width: 100%;
+    display: block;
+}
+.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding: 66px 0 26px;
+    margin-left: 0;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+strong {
+    font-weight: 700;
+}
 body {
     color: #333;
     font-family: 'Open Sans',sans-serif;
