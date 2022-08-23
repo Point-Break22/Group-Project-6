@@ -1,69 +1,24 @@
-header {
-    display: blockx;
+/* styling for double navbar */
+html,body,header {
+    height: 20vh;
+    font-family: 'Open Sans',sans-serif;
+    scroll-behavior: smooth;
+    color: black;
 }
-.page-header {
-    position: static;
-    top: auto;
-    left: auto;
-    height: auto;
-    padding: 0;
-    margin-bottom: 24px;
-    box-shadow: 0 4px 7px 0 rgb(0 0 0 / 10%);
-    background-color: #e5f5f4;
-    z-index: 100;
-}
-.page-header .content {
-    display: block;
+
+.fixed-top {
+    padding: 20px 0 0px 8px;
     background-color: #1db1a8;
 }
-.page-header .content:before {
-    content: '';
-    display: table;
+.fixed-top .navbar-nav li a {
+    font-size: 19px;
+    color: #1db1a8 !important;
 }
-.page-header .content::after {
-    clear: both;
-    content: '';
-    display: table;
+.fixed-top .navbar-nav li a:hover {
+    color: #E5F5F4 !important;
 }
-.header-location.radius{
-    border-radius: 0 0 12px 12px;
-    border-radius: 0;
-}
-.header-location {
-    position: absolute;
-    width: 250px;
-    right: 0;
-    position: relative;
-    background-color: #fff;
-    padding: 0;
-    z-index: 400;
-    width: 100%;
-    display: block;
-}
-.logo {
-    float: left;
-    width: auto;
-    height: auto;
-    padding: 66px 0 26px;
-    margin-left: 0;
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
-strong {
-    font-weight: 700;
-}
-body {
-    color: #333;
-    font-family: 'Open Sans',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.42857143;
-    font-size: 1.4rem;
-}
-a, .alink {
-    color: #1979c3;
-    text-decoration: none;
+.btn-primary {
+background-color: #147B74;
 }
 .btn {
     appearance: none;
@@ -87,10 +42,7 @@ a, .alink {
     overflow: hidden;
     font-family: 'Open Sans',sans-serif;
 }
-.btn:visited {
-    text-decoration: none;
-}
-.page-header .right .button-container {
+.button-container {
     list-style: none;
     clear: both;
     float: right;
@@ -99,12 +51,8 @@ a, .alink {
     margin-top: 23px;
     display: flex;
 }
-.page-header .right {
-    display: block;
-    float: right;
-    height: auto;
-    margin-top: 75px;
-    text-align: right;
+.btn:visited {
+    text-decoration: none;
 }
 .btn.store-locator::before {
     background-position: -10px -7px;
@@ -213,12 +161,15 @@ a, .alink {
     height: 36px;
     width: 100%;
     box-sizing: border-box;
-    background-image: url(../images/vendor-store-locator/inspired-beauty/search.svg);
+    background-image: url(./images/istockphoto-1317416781-612x612\ 1.png);
     background-repeat: no-repeat;
     background-position: 5px center;
     padding-left: 30px;
     background-size: 20px;
     width: 310px;
+}
+.image-back { 
+    background-image: url(./images/istockphoto-1317416781-612x612\ 1.png)
 }
 .screenreader-only {
     border: 0 !important;
@@ -231,41 +182,27 @@ a, .alink {
     width: 1px !important;
     top: auto !important;
 }
-label {
-        cursor: default;
-}
+
 form {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-input [type="text"] {
-    background: #fff;
-    background-clip: padding-box;
-    border: 1px solid #c2c2c2;
-    border-radius: 1px;
-    font-family: 'Open Sans',sans-serif;
-    font-size: 14px;
-    height: 32px;
-    line-height: 1.42857143;
-    padding: 0 9px;
-    vertical-align: baseline;
+
+@media screen and (max-width:767px){
+    .navbar-dark{
+    background-color: #1db1a8 !important;
+    }
+    
+}
+
+#main-bar {
+    position: absolute;
     width: 100%;
-    box-sizing: border-box;
+    top: 13%;
+    position: fixed;
+    z-index: 1;
+    background-color: #1db1a8;
 }
-input {
-    color: #222;
-    margin: 0;
-    box-shadow: none;
-    outline: none !important;
-}
-div {
-    display: block;
-}
-.right {
-    display: block;
-    float: right;
-    height: auto;
-    margin-top: 75px;
-    text-align: right;
-    background-color: rgba(0,0,0,0);
-    display: none;
+#main-bar .nav-item{
+    margin-left: 10px;
+    font-size: 17px;
 }
