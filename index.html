@@ -1,16 +1,259 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="js-focus-visible" data-js-focus-visible="">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
     <link href="./assets/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-    </script>
-        <script src="js/index.js?ver=1"></script>
+<header class="page-header pt-5">
+  <div class="container">
+    <div class="location">
+      <a href="#">
+        <span class="">Set your preferred Rexall Location</span>
+      </a>
+    </div>
+  
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <a class="navbar-brand" href="#"><img src="https://www.rexall.ca/media/logo/stores/1/rexall-trileaf-logo_3x.png" alt="Rexall" width="226"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+        
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="btnheader-btn" href="#">Find My Meds <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="btnheader-btn" href="#">Store Locator <span class="sr-only">(current)</span></a>
+          </li> 
+          <li class="nav-item">
+              <a class="btnheader-btn" href="#">Weekly Flyer <span class="sr-only">(current)</span></a>
+          </li> 
+          <li class="nav-item">
+              <a class="btnheader-btn" href="#">Subscribe <span class="sr-only">(current)</span></a>
+          </li> 
+          <li class="nav-item">
+              <a class="btnheader-btn" href="#">Log in to Be Well™ <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav d-block d-lg-none">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pharmacy</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Health</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Beauty</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Online Health Services <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Online Shopping <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Promotions</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Be Well™</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="second-nav-container d-none d-lg-block">
+    <div class="container">
+      <ul class="navbar-nav navbar-expand-lg">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pharmacy</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Health</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Beauty</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Online Health Services <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Online Shopping <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Promotions</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Be Well™</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+  <!-- Main page content -->
+
+  <div class="container" style="margin-top:30px">
+    <div class="row">
+      <div class="col-sm-4 justify-content: text-center">
+        <div class="image-back"> <img src="./assets/images/SEARCH IMAGE.png"></div>
+        <div id="med-finder">
+          <h1 class="med-title">Medication</h1>
+          <h1 class="find-title">Finder</h1>
+          <p class="caption">Search for the medications you need!</p>
+        </div>
+        
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm"><div class="container mt-3">
+        <div class="row">
+          <div class="col-sm">
+            <label for="Quantity" class="mb-2 mr-sm-2">Medication Name</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="pwd2" placeholder="" name="">
+          </div>
+          <div class="col-sm">
+          <label for="Quantity" class="mb-2 mr-sm-2">Quantity</label>
+          <input type="text" class="form-control mb-2 mr-sm-2" id="pwd2" placeholder="" name="">
+            </div>
+          </div>
+         </div>
+          <!-- Caontent JS for filter list -->
+          <script>
+          $(document).ready(function(){
+            $("#myInput").on("keyup", function() {
+              var value = $(this).val().toLowerCase();
+              $("#myList li").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+              });
+            });
+          });
+          </script>
+
+<div class="container">
+  <div class="row">
+              <div class="col-sm">
+                <form class="form-inline" action="/action_page.php">
+                  <label for="vin" class="mb-2 mr-sm-2">Postal Code / VIN</label>
+                  <input type="text" class="form-control mb-2 mr-sm-2" id="vin" placeholder="" name="">
+              </div>
+              <div class="col-sm">
+                <h6>Distance</h6>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary">5km</button>
+                  <button type="button" class="btn btn-primary">10km</button>
+                  <button type="button" class="btn btn-primary">20km</button>
+                  <button type="button" class="btn btn-primary">30km</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          </div>
+   
+<!-- Anna Generic or Brand -->
+<div class="container">
+  <div class="row">
+      <div class="col-sm">
+          <form class="form-check-inline" action="/action_page.php"></form>
+          <label class="col-sm" for="check1">
+              <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something">Generic</label>
+          </div>
+              <div class="col-sm">
+                  <form class="form-check-inline" action="/action_page.php"></form>
+                  <label class="col-sm" for="check1">
+                      <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something">Brand</label>
+              </div>
+
+          </div>
+
+<!-- Priscilla  Button -->           
+<button type="button" class="btn-primary btn-block"><img src="./assets/images/resized search image.png">Search</button>   
+            </form>
+          </div>
+
+      </div>
+    </div>
+  </div>
+  
+<footer class="footer">
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <div class="page-footer">
+      <a href="https://www.rexall.ca/">
+      <img src="https://www.rexall.ca/media/logo/stores/1/rexall-trileaf-logo_3x.png" alt="Rexall home page" width="226">
+      </a>
+      <a class="btn-large" href="">Store Locator</a>
+      <a class="btn-large" href="">Weekly Flyer</a>
+      <a class="btn-large" href="">Subscribe</a>
+      <a class="btn-large" href="" target="_blank">Log in to Be Well™<span class="screenreader-only"> (opens in a new window)</span></a>
+</div>
+</footer>
+<div class="footer-photo">
+  <img src="./assets/images/rexall-footer.png">
+</div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+     <script src="js/index.js"></script>
 </body>
 </html>
