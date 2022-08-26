@@ -258,6 +258,7 @@ line-height: 1;
     margin: 10px;
     padding: 10px;
 }
+
 #check1 {
     width: 15px;
     height: auto;
@@ -276,6 +277,11 @@ line-height: 1;
     background-color: #1db1a8;
     border-radius: 0.3rem;
 }
+
+.img-fluid {
+    width: 100%;
+}
+
 /* search bar */
 .screenreader-only {
     border: 0 !important;
