@@ -133,7 +133,6 @@ line-height: 1;
         font-size: 18px;
         text-align: center;
         justify-content: center;
-        margin-top: 35px;
     }
 .btn-primary:hover {
     background-color: #147B74;
@@ -312,10 +311,13 @@ The navbar toggle appears at this breakpoint */
     display: block;
     display: none;
     margin-top: 0;
-border-radius:0;
+border-radius: 0;
 }
 }
 
+.modal-body{
+    position: relative; 
+}
 
 /* JG Edits */
 
