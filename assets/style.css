@@ -295,6 +295,9 @@ line-height: 1;
 form {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+.info {
+    margin-top: -4px;
+}
 
 /* Mobile functions */
 @media screen and (max-width:767px){
