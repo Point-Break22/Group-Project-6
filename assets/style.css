@@ -298,13 +298,19 @@ form {
     margin-top: -4px;
 }
 h4 {
-    font-size: 18px;
+    font-size: 16px;
 
 }
 h6 {
-    font-size: 12px;
-    padding-right: 4px;
-    padding-left: 4px;
+    font-size: 10px;
+    margin-right: 8px;
+    margin-left: 4px;
+}
+.color-code {
+    margin-top: 4px;
+}
+.big-color-code {
+    margin-
 }
 
 /* Mobile functions */
@@ -325,7 +331,10 @@ border-radius: 0;
 }
 
 .modal-body{
-    position: relative; 
+    position: relative;
+}
+.modal-fade {
+    width: ;
 }
 
 /* JG Edits */
