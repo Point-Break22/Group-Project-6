@@ -297,6 +297,12 @@ form {
 .info {
     margin-top: -4px;
 }
+h6 {
+    font-size: 12px;
+    padding-right: 4px;
+    padding-left: 4px;
+    
+}
 
 /* Mobile functions */
 @media screen and (max-width:767px){
