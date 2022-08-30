@@ -337,6 +337,14 @@ border-radius: 0;
     width: ;
 }
 
+.modal-content {
+    position: relative;
+    
+    width: 850px;
+    display: flex;
+
+}
+
 /* JG Edits */
 
 .page-header {
