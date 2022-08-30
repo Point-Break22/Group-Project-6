@@ -62,7 +62,7 @@ a:hover{
 .med-title {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 60px;
+    font-size: 45px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -73,7 +73,7 @@ a:hover{
 .find-title {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 60px;
+    font-size: 42px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -85,7 +85,7 @@ a:hover{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 28px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -133,6 +133,7 @@ line-height: 1;
         font-size: 18px;
         text-align: center;
         justify-content: center;
+
     }
 .btn-primary:hover {
     background-color: #147B74;
