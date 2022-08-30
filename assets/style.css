@@ -307,6 +307,7 @@ h6 {
 }
 .color-code {
     margin-top: 4px;
+    margin-left: 45px;
 }
 .big-color-code {
     margin-top: 7px;
@@ -323,11 +324,17 @@ h6 {
 .stock-amount {
     margin-left: 250px;
 }
+.stock-amount2 {
+    margin-left: 310px;
+}
 .store-locate {
     display: flex;
 }
 .card-link2 {
-    margin-left: 200px;
+    margin-left: 150px;
+}
+.card-link3 {
+    margin-left: 190px;
 }
 
 /* Mobile functions */
